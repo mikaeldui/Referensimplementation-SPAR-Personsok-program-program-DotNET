@@ -74,6 +74,9 @@
     <Content Include="Certifikat\Verisign.pem">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Certifikat\DigiCert.pem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Connected Services\SparServiceReference\ReferensimplementationPersonsok.SparServiceReference.SPARPersonsokningSvar.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>

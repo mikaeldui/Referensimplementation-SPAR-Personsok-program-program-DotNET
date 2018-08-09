@@ -72,7 +72,7 @@ namespace ReferensimplementationPersonsok
             // Sökväg till certifikat, samt lösenord till klientcertifikatet
             client.ClientCredentials.ClientCertificate.Certificate = new X509Certificate2(klientCerfikatPath, klientCertifikatLosenord);
 
-            // Verifiera att det är rätt ufärdare av SPAR:s certifikat (Verisign) och det är rätt common name på TLS-termineringspunkten
+            // Verifiera att det är rätt ufärdare av SPAR:s certifikat och det är rätt common name på TLS-termineringspunkten
             X509Certificate2 signerandeCertifikat = new X509Certificate2(sparCertifikatSignerarePath);
             client.ClientCredentials.ServiceCertificate.SslCertificateAuthentication = new X509ServiceCertificateAuthentication();
             client.ClientCredentials.ServiceCertificate.SslCertificateAuthentication.CertificateValidationMode = X509CertificateValidationMode.Custom;
