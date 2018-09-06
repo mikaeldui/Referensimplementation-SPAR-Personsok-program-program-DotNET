@@ -38,6 +38,3 @@ Vi rekommenderar att verifiering av rootcertifikatet görs även om en annan lö
 Om koden används för att integrera mot produktionsmiljön krävs ett giltigt klientcertifikat, det inkluderade
 testcertifikatet fungerar endast i kundtestmiljön. Även indentifieringsinformation behöver vara giltig,
 se _KundNrLeveransMottagare_, _KundNrSlutkund_ och _UppdragsId_. För mer information kontakta SPAR:s kundtjänst.
-
-SPAR har bytt certifikatutfärdare vilket medför att anslutningar mot produktionsmiljön behöver använda
-medföljande _DigiCert.pem_ istället för Verisign.pem som [rootcertifikat](Rootcertifikat) för att verifiera SPARs certifikat.

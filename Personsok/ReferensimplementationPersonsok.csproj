@@ -71,9 +71,6 @@
     <Content Include="Certifikat\Kommun_A.p12">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Certifikat\Verisign.pem">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Certifikat\DigiCert.pem">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

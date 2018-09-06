@@ -34,7 +34,7 @@ namespace ReferensimplementationPersonsok
                 "kt-ext-ws.statenspersonadressregister.se",
                 "Certifikat\\Kommun_A.p12",
                 "8017644482212111",
-                "Certifikat\\Verisign.pem");
+                "Certifikat\\DigiCert.pem");
 
             Log.Info("Personnummersök 197910312391");
             LogPersonsokningSvar(client.SPARPersonsokning(CreatePersonIdFraga(identifierinsInformation, "197910312391")));
