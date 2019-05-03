@@ -18,7 +18,7 @@ namespace Test
                 "https://kt-ext-ws.statenspersonadressregister.se/spar-webservice/SPARPersonsokningService/20160213/",
                 "kt-ext-ws.statenspersonadressregister.se",
                 Path.Combine(TestContext.CurrentContext.TestDirectory, "Certifikat\\Kommun_A.p12"),
-                "8017644482212111",
+                "5085873593180405",
                 Path.Combine(TestContext.CurrentContext.TestDirectory, "Certifikat\\Verisign.pem"));
 
             IdentifierinsInformation = DemonstrationPersonsok.CreateIdentifieringsInformation(

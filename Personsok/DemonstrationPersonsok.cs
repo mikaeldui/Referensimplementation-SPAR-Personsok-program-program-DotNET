@@ -33,7 +33,7 @@ namespace ReferensimplementationPersonsok
                 "https://kt-ext-ws.statenspersonadressregister.se/spar-webservice/SPARPersonsokningService/20160213/",
                 "kt-ext-ws.statenspersonadressregister.se",
                 "Certifikat\\Kommun_A.p12",
-                "8017644482212111",
+                "5085873593180405",
                 "Certifikat\\DigiCert.pem");
 
             Log.Info("Personnummersök 197910312391");
