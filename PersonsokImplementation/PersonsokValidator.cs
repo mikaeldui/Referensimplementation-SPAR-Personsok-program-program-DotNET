@@ -31,7 +31,7 @@ namespace PersonsokImplementation
                 throw new ArgumentOutOfRangeException("PersonId måste bestå utav ett korrekt årtal");
             if(month < 1 || month > 12)
                 throw new ArgumentOutOfRangeException("PersonId måste bestå utav ett korrekt månadstal");
-            if(month < 1 || month > 31 )
+            if(day < 1 || day > 31 )
                 throw new ArgumentOutOfRangeException("PersonId måste bestå utav ett korrekt dagstal");
 
             return IsPersonIdChecksumValid(personId.Substring(2));
